@@ -4,14 +4,16 @@ class mobileScreen extends StatefulWidget {
   const mobileScreen({super.key});
 
   @override
-  State<mobileScreen> createState() => _webscreenState();
+  State<mobileScreen> createState() => _mobileScreenState();
 }
 
-class _mobileScreenState extends State<webscreen> {
+class _mobileScreenState extends State<mobileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text("mobile screen"),
+      ),
     );
   }
 }

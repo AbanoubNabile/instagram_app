@@ -10,8 +10,6 @@ class webscreen extends StatefulWidget {
 class _webscreenState extends State<webscreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: ,
-    )
+    return Scaffold(appBar: AppBar());
   }
 }
